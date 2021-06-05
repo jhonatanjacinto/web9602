@@ -1,0 +1,63 @@
+GERAL
+    Site centralizado com largura de 1000px
+    Tamanho de fonte geral de 16px
+    Cor da fonte = #504E4E
+    Fonte Roboto (Importar do Google Fonts a Regular e a Negrito)
+    
+PARÁGRAFOS
+    Altura da linha de 1,5x o tamanho da fonte 
+
+CABEÇALHO
+    Espaçamento inferior e superior interno de 35px
+
+MENU
+    Borda superior de 1px, sólida e com cor #B8B5B5 
+    Borda inferior de 2px, sólida e com cor #B8B5B5
+    Espaçamento superior e inferior de 15px
+
+LISTA DE LINKS (MENU)
+    Remover espaçamentos externos e internos
+
+ITEM DA LISTA DE LINKS (MENU)
+    Deixá-los um ao lado do outro (comportamento "em linha")
+    Espaçamento externo à direita de 20px
+
+LINKS (MENU)
+    Cor de texto preta
+    Deixar as letras todas maiúsculas
+    Remover o underline
+
+LINKS (MOUSE OVER)
+    Exibir o underline 
+    Trocar a cor de texto para vermelho (#B51E23)
+
+TÍTULO DO CONTEÚDO PRINCIPAL
+    Tamanho da fonte de 36px
+    Deixar as letras todas maiúsculas 
+    Deixar fonte em negrito (bold)
+    Espaçamento externo inferior e superior de 40px
+    Cor de texto preta
+
+LEGENDA DA IMAGEM DO CONTEÚDO
+    Texto centralizado
+    Tamanho da fonte de 14px
+    Estilo da fonte em itálico
+    Espaçamento interno inferior e superior de 10px
+    Cor de texto preta
+
+CONTÊINER DA IMAGEM DO CONTEÚDO
+    Espaçamento externo à direita e inferior de 30px
+    Flutuação à esquerda
+
+RODAPÉ
+    Cor de fundo #181818
+    Cor de texto branca
+    Espaçamento interno inferior e superior de 30px
+    Alinhamento do texto centralizado
+    Borda arredondada de 10px
+    Espaçamento externo inferior e superior de 35px
+
+
+
+
+
