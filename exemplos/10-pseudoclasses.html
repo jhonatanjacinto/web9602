@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        /**
+        *   :first-child / :last-child = pega o primeiro/último elemento especificado levando em consideração toda a estrutura HTML
+        *   :first-of-type / :last-of-type = pega o primeiro elemento do tipo especificado dentro de um agrupamento de elementos desse mesmo tipo
+        */
+        p {
+            color: green;
+        }
+
+        p:first-child {
+            color: red;
+        }
+
+        table {
+            border: 1px solid #aaa;
+            width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            border-bottom: 1px solid #aaa;
+            border-right: 1px solid #aaa;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        /* Filho N-tesimal */
+        tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui repudiandae iure perferendis quidem sed, ab voluptatem facilis obcaecati laborum reprehenderit sint labore ullam facere non, rerum, totam quas pariatur doloribus.</p>
+        <p>In odio impedit quis suscipit, voluptatum rem similique fuga? Et perferendis quae voluptatum molestias laudantium facere blanditiis aperiam, nam nobis ad dignissimos in neque voluptate maiores quasi eligendi, aliquid quaerat.</p>
+        <p>Eum sequi earum nihil recusandae aperiam eveniet quae! Ut, dolorum ad? Porro odit commodi cupiditate qui quo placeat ducimus id culpa corrupti rem a, illum libero quisquam, aliquid eligendi voluptatibus.</p>
+        <p>Rerum distinctio molestias possimus mollitia nisi harum repudiandae repellendus, iure doloribus error placeat eligendi odio fugiat impedit maxime, amet aliquid fuga illum facere inventore sequi ullam molestiae et assumenda. Repudiandae.</p>
+        <p>Provident impedit distinctio fugit odio in dolores sapiente laudantium illo culpa. Asperiores quibusdam animi temporibus itaque. Cum modi, quo provident voluptatem in at magnam laboriosam? Eveniet perferendis omnis placeat accusamus.</p>
+        <span>Bla bla bla</span>
+    </div>
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+                <th>Coluna 2</th>
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+            <tr>
+                <td>Dado 1</td>
+                <td>Dado 2</td>
+                <td>Dado 3</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

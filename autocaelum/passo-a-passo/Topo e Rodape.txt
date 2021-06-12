@@ -4,8 +4,28 @@ GERAL
     Fonte padrão "Roboto"
     cor de fonte #7A7A7A
 
-CONTEINTER DE CENTRALIZAÇÃO
-    1000px de largura centralizado
+CENTRALIZAÇÃO
+    1000px de largura
 
 TOPO
-    Cor de fundo
+    Cor de fundo = #4D0B0B
+    Cor de fonte = #fff 
+
+CAIXA DE PESQUISA
+    Cor da borda = #410000
+    Largura da Borda = 4px
+    Cor de fundo = #F4F4F4
+    Largura = 420px
+
+LINK FINANCIAMENTO
+    Cor de fundo = #069E03
+    Espaçamento interno superior e inferior = 15px
+    Espaçamento interno laterais = 26px
+    Tamanho da fonte = 12px
+    Espaçamento entre letras = 0.12em
+
+MENU
+    Cor de fundo = #360505
+    Cor da Linha divisória = #693434
+    Tamanho da fonte = 12px
+    Espaçamento entre letras = 0.12em
