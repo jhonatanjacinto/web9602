@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex {
+            width: 800px;
+            background-color: yellowgreen;
+            height: 800px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start; /* alinha os elementos dentro de cada linha do contêiner flex, neste caso, colocando todos alinhados ao topo*/
+            align-content: center; /* Alinha todas as linhas ao centro do contêiner flex */
+        }
+
+        .box {
+            background: yellow;
+            border: 1px solid black;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="flex">
+
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">salkdfjgalsdkjfglasdf asldkfjalsdf alsdhjflasdf </div>
+        <div class="box">Box 5</div>
+        <div class="box">asldkfjalsdf laksjdfasdf </div>
+        <div class="box">Box 7</div>
+        <div class="box">Box 8</div>
+        <div class="box">Box 9</div>
+        <div class="box">askdjfhlasdhjfa sdfkahsjdlfknasdf askjdfhlaksjdnfa sdflkashdlfkjansdfaslkdjhflkasdf</div>
+        <div class="box">Box 11</div>
+        <div class="box">Box 12</div>
+
+    </div>
+    
+</body>
+</html>

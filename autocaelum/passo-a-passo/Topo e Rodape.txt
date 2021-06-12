@@ -1,0 +1,11 @@
+GERAL
+    Mudar o box model para "border-box"
+    Tamanho geral de fonte de 16px
+    Fonte padrão "Roboto"
+    cor de fonte #7A7A7A
+
+CONTEINTER DE CENTRALIZAÇÃO
+    1000px de largura centralizado
+
+TOPO
+    Cor de fundo

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 900px;
+            margin: 0 auto;
+        }
+
+        #topo, #menu, #conteudo, #sidebar, #rodape {
+            border: 1px solid gray;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        #topo, #rodape {
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+        
+        #rodape {
+            background-color: black;
+            margin-bottom: 0;
+        }
+
+        #menu, #sidebar {
+            width: 200px;
+        }
+
+        #conteudo {
+            width: 300px;
+        }
+
+        .flex {
+           display: flex; 
+           flex-direction: row;
+           align-items: flex-start; /* alinhamento vertical */
+           justify-content: space-between; /* alinhamento horizontal */
+        }
+
+
+    </style>
+</head>
+<body>
+    <header id="topo">
+        <h1>Cabeçalho do site</h1>
+    </header>
+
+    <div class="flex">
+        <nav id="menu">
+            <h4>Menu do site</h4>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+            </ul>
+        </nav>
+
+        <main id="conteudo">
+            <header>
+                Outro cabecalho
+            </header>
+            <p>Conteúdo principal do site</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem at modi ducimus minima sint! Quo veritatis, hic vel fugiat repellat culpa ipsum quae! Sit, quas quia. Nemo voluptate quisquam eius!</p>
+            <p>Aliquam quis, magnam illo saepe soluta in mollitia voluptatum, eos quia voluptatem aut ex perferendis veritatis, numquam officia culpa minima suscipit iste dolores illum quam ea! Facere repellendus quaerat culpa.</p>
+            <p>Optio voluptatum perferendis expedita officia saepe natus consequuntur commodi magnam, nam illum, recusandae quam! Natus sit dolorem vitae, tempore ab laudantium eveniet, rem soluta id accusantium praesentium, delectus autem porro.</p>
+            <p>Doloribus ut facilis quia, beatae, cum aliquam nulla, ab iure at qui eligendi repellat ipsum quis praesentium voluptas ducimus assumenda autem dicta vitae esse. Nihil quisquam officiis quas asperiores deserunt!</p>
+            <p>Corrupti, illum numquam excepturi officia tempore consequatur facilis fugit nostrum eligendi omnis sed nulla aliquam repellat minima possimus tempora ea blanditiis fugiat quam? Rem laboriosam quis tempore quod praesentium itaque.</p>
+            <p>Beatae, quasi assumenda! Consectetur quod, architecto cupiditate voluptatum eius nesciunt deserunt a laborum fugiat ab recusandae magnam fuga sed aliquam quos commodi accusamus aliquid earum doloribus tempora, dolorum quasi voluptates!</p>
+            <p>Nisi ullam minus sunt vitae necessitatibus aut harum accusantium quae voluptate eaque nobis molestias atque incidunt quidem id distinctio blanditiis corporis error architecto itaque quasi voluptatibus, eligendi maiores consequuntur? Ipsa.</p>
+            <p>Repellat magnam ad quasi eius debitis dolorem nisi qui iste odio autem voluptatibus quae laborum repudiandae dolore, alias veniam obcaecati cumque? Quam, minus itaque laboriosam iure officiis saepe ipsum est!</p>
+            <p>Modi fuga non perspiciatis consectetur nam excepturi dolor adipisci, tempore animi officiis cumque expedita cupiditate officia optio nostrum aspernatur commodi atque fugit pariatur necessitatibus omnis maxime molestiae facere dolorem? Ipsa?</p>
+            <p>A iusto nesciunt voluptates nemo voluptas quasi, ex pariatur aliquid assumenda, sit nam magni vel est quibusdam, unde reiciendis non consequatur iste tempore fuga. Modi culpa minus accusantium consequatur sint!</p>
+        </main>
+
+        <aside id="sidebar">
+            <p>Conteúdo da sidebar do site</p>
+        </aside>
+    </div>
+
+    <footer id="rodape" class="clear">
+        <p>Copyright &copy; Rodapé do site</p>
+    </footer>
+</body>
+</html>
