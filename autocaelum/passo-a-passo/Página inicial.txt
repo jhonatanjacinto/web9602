@@ -16,6 +16,7 @@
         Posicionamento à esquerda = 0
         Posicionamento ao fundo (bottom) = 0
         Largura = 100%
+        Altura = 150px
         Cor de fundo = linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
         Cor de texto = branco
         Espaçamento entre letras = 0.12em
