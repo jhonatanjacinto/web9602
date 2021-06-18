@@ -29,3 +29,18 @@ MENU
     Cor da Linha divisória = #693434
     Tamanho da fonte = 12px
     Espaçamento entre letras = 0.12em
+
+REDES SOCIAIS (TOPO E RODAPÉ)
+    Tamanho dos ícones: 16px
+    Espaçamento entre letras (Siga-nos) = 0.12em
+
+RODAPE
+    Cor de fundo = #360505
+    Cor do texto = #fff 
+    Espaçamento superior e inferior = 35px
+    Tamanho do texto = 12px
+
+ENDEREÇO
+    Espaçamento entre letras = 0.12em
+    Letras maiúsculas
+

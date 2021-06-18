@@ -1,0 +1,97 @@
+ÁREA 1 (USAR GRID)
+    BANNER PRINCIPAL
+        Largura = 600px
+        Altura = 290px
+
+    IMAGEM (BANNER PRINCIPAL)
+        Largura = 100%
+        Altura = automática
+    
+    CONTAINER IMAGEM (BANNER PRINCIPAL)
+        Posição = relative
+        Espaçamento interno e externo zerado
+
+    LEGENDA DA IMAGEM (BANNER PRINCIPAL)
+        Posição = absolute
+        Posicionamento à esquerda = 0
+        Posicionamento ao fundo (bottom) = 0
+        Largura = 100%
+        Cor de fundo = linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+        Cor de texto = branco
+        Espaçamento entre letras = 0.12em
+        Letras maiúsculas
+        Espaçamento interno geral = 37px
+
+    LINK SAIBA MAIS (BANNER PRINCIPAL)
+        Cor de texto = #CA5858
+        Texto sem underline
+        Texto em Negrito
+        Tamanho da fonte = 14px
+
+    QUADROS MENORES
+        largura = 233px
+        Altura = 186px
+        Tamanho da fonte = 14px
+        Espaçamento entre letras = 0.12em
+        Fonte em negrito 
+
+    IMAGENS (QUADROS MENORES)
+        Largura = 100%
+        Altura = automática
+
+    QUADRO 2 e QUADRO 3
+        Display: flex
+        alinhamento horizontal = centro          
+        alinhamento vertical = centro
+        Espaçamento interno geral = 20px
+
+    QUADRO 2
+        Cor de fundo = #2D0707
+
+    QUADRO 3
+        Cor de fundo = #652626
+
+
+ÁREA 2
+    TÍTULO
+        Tamanho da fonte = 21px
+        Espaçamento entre letras = 0.12em
+        Borda inferior sólida de cor #360505 e 1px de largura
+        Cor de texto = #360505
+        Letras maiúsculas
+
+    LISTA DOS CARROS
+        display: flex 
+        Alinhamento vertical ao topo 
+        Alinhamento horizontal = espaçamento igualitário entre os elementos
+
+    CARDS DOS VEÍCULOS
+        Largura = 232px
+
+    TÍTULO (CARD DO VEÍCULO)
+        Tamanho da fonte = 18px 
+        Cor do texto preta
+
+    PREÇO (CARD DO VEÍCULO)
+        Cor do texto = #6F6F6F
+    
+    LINK DETALHES (CARD DO VEÍCULO)
+        Cor do texto = #fff 
+        Remover o underline do texto 
+        Letras maiúsculas 
+        Tamanho da fonte = 12px 
+        Espaçamento interno lateral = 20px 
+        Espaçamento interno superior e inferior = 13px
+        Borda arredondada = 5px
+        Cor de fundo = #069E03
+
+    HOVER LINK DETALHES (CARD DO VEÍCULO)
+        Cor de fundo = #475E46
+
+    IMAGEM (CARD DO VEÍCULO)
+        Largura = 100%
+        Altura = automática
+
+
+
+
