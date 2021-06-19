@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Area</title>
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .foto {
+            background-color: yellow;
+        }
+        
+        .grid {
+            width: 600px;
+            height: 400px;
+            margin: 25px auto;
+            border: 3px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+                "foto_vertical_1 foto_horizontal_1 foto_horizontal_1"
+                "foto_vertical_1 foto_pequena_1 foto_pequena_2"
+                "foto_horizontal_2 foto_horizontal_2 foto_pequena_3"
+            ;
+            gap: 5px;
+        }
+
+        .foto:first-child {
+            grid-area: foto_horizontal_2;
+            background-color: red;
+        }
+
+        .foto:nth-child(2) {
+            grid-area: foto_horizontal_1;
+            background-color: green;
+        }
+
+        .foto:nth-child(5) {
+            grid-area: foto_vertical_1;
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="grid">
+        <div class="foto">Foto 1</div>
+        <div class="foto">Foto 2</div>
+        <div class="foto">Foto 3</div>
+        <div class="foto">Foto 4</div>
+        <div class="foto">Foto 5</div>
+        <div class="foto">Foto 6</div>
+    </div>
+
+</body>
+</html>
