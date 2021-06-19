@@ -92,7 +92,3 @@
     IMAGEM (CARD DO VEÍCULO)
         Largura = 100%
         Altura = automática
-
-
-
-
