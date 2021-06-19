@@ -45,3 +45,17 @@ body {
     font-weight: bold;
     border-radius: 5px;
 }
+
+.redes-sociais a {
+    color: inherit;
+}
+
+.redes-sociais ul {
+    display: inline-block;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 14px;
+}
