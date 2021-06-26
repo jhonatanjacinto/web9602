@@ -5,24 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoCaelum | Sobre a empresa</title>
+    <link rel="stylesheet" href="css/masterpage.css">
     <link rel="stylesheet" href="css/sobre.css">
 </head>
 <body>
-    
+
     <header id="topo">
-        <img src="images/logo-autocaelum.png" alt="Logo da AutoCaelum">
+        <div class="container flex">
+            <img src="images/logo-autocaelum-topo.png" alt="AutoCaelum">
+
+            <form class="flex" action="">
+                <label for="termo">Caixa de pesquisa</label>
+                <input type="text" name="termo" id="termo" placeholder="Digite sua pesquisa...">
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+
+            <a href="#" class="lnk-destaque lnk-financiamento">
+                <i class="fas fa-dollar-sign"></i> Financiamento
+            </a>
+        </div>
+
+        <nav id="menu">
+            <div class="container flex">
+                <ul class="menu-principal">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="sobre.html">Sobre a Empresa</a></li>
+                    <li><a href="veiculos.html">Veículos</a></li>
+                    <li><a href="fale-conosco.html">Fale conosco</a></li>
+                </ul>
+
+                <aside class="redes-sociais">
+                    <strong>Siga-nos:</strong>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </nav>
     </header>
 
-    <nav id="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Veículos</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </nav>
-
-    <main id="conteudo">
+    <main class="container">
         <h1>Sobre a empresa</h1>
         <figure class="foto-concessionaria">
             <img src="images/foto-concessionaria.jpg" alt="Foto do pátio da concessionária">
@@ -38,7 +64,29 @@
     </main>
 
     <footer id="rodape">
-        <p>Copyright &copy; AutoCaelum - Todos os direitos reservados.</p>
+        <div class="container flex">
+            <img src="images/logo-rodape.png" alt="Logo da AutoCaelum" />
+            <aside class="redes-sociais">
+                <strong>Siga-nos:</strong>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </aside>
+        </div>
+
+        <div class="container flex">
+            <address>
+                Rua Guarujá, 589 Vila Madalena <br>
+                São Paulo / SP
+            </address>
+
+            <p>
+                Copyright &copy; AutoCaelum<br>
+                Todos os direitos reservados.
+            </p>
+        </div>
     </footer>
 
 </body>

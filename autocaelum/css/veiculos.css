@@ -1,0 +1,31 @@
+.lista-veiculos h2 {
+    color: #360505;
+    font-size: 21px;
+    letter-spacing: .12em;
+    border-bottom: 1px solid #360505;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 11px;
+    margin-bottom: 25px;
+}
+
+.lista-veiculos li {
+    width: 232px;
+    margin-bottom: 20px;
+}
+
+.lista-veiculos li img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.lista-veiculos li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+}
+
+.lista-veiculos li p {
+    margin: 10px 0;
+}
