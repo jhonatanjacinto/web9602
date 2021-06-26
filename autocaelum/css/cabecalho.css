@@ -124,6 +124,11 @@
 
     #menu > .container {
         margin-top: 15px;
+        display: none;
+    }
+
+    #menu > .container.active {
+        display: flex;
     }
 
     #topo img {

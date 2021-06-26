@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoCaelum | Bem-vindo ao nosso site</title>
+    <title>AutoCaelum | Fale conosco</title>
     <link rel="stylesheet" href="css/masterpage.css">
-    <link rel="stylesheet" href="css/veiculos.css">
-    <link rel="stylesheet" href="css/grid-principal.css">
+    <link rel="stylesheet" href="css/fale-conosco.css">
 </head>
 <body>
+
     <header id="topo">
         <div class="container flex">
             <img src="images/logo-autocaelum-topo.png" alt="AutoCaelum">
@@ -51,83 +51,36 @@
         </nav>
     </header>
 
-    <main class="container">
-        
-        <!-- Área 1 da Home -->
-        <section class="grid-principal">
-            <figure>
-                <img src="images/home-imagem-1.jpg" alt="Foto da Concessionária" />
-                <figcaption>
-                    Conheça a AutoCaelum <br>
-                    <a href="sobre.html">
-                        Saiba mais <i class="fas fa-long-arrow-alt-right"></i>
-                    </a>
-                </figcaption>
-            </figure>
-
-            <img src="images/home-imagem-2.jpg" alt="Foto do pátio da Concessionária 2" />
-
-            <p>
-                Condições especiais de Financiamento
-            </p>
-
-            <p>
-                Trabalhamos com todas as marcas
-            </p>
-
-            <img src="images/home-imagem-3.jpg" alt="Foto do pátio da Concessionária 3" />
-        </section>
-
-        <!-- Área 2 da Home -->
-        <section class="lista-veiculos">
-            <h2>Veículos</h2>
-            <ul class="flex">
-                <li>
-                    <img src="images/veiculo-1.jpg" alt="Chevrolet Cruze">
-                    <h3>Chevrolet Cruze LT 2012 Flex (Aut.)</h3>
-                    <p>
-                        R$ 35.500,00
-                    </p>
-                    <a href="#" class="lnk-destaque">
-                        Ver Detalhes
-                    </a>
-                </li>
-
-                <li>
-                    <img src="images/veiculo-2.jpg" alt="Chevrolet Cruze">
-                    <h3>Chevrolet Cruze LT 2012 Flex (Aut.)</h3>
-                    <p>
-                        R$ 35.500,00
-                    </p>
-                    <a href="#" class="lnk-destaque">
-                        Ver Detalhes
-                    </a>
-                </li>
-
-                <li>
-                    <img src="images/veiculo-3.jpg" alt="Chevrolet Cruze">
-                    <h3>Chevrolet Cruze LT 2012 Flex (Aut.)</h3>
-                    <p>
-                        R$ 35.500,00
-                    </p>
-                    <a href="#" class="lnk-destaque">
-                        Ver Detalhes
-                    </a>
-                </li>
-
-                <li>
-                    <img src="images/veiculo-4.jpg" alt="Chevrolet Cruze">
-                    <h3>Chevrolet Cruze LT 2012 Flex (Aut.)</h3>
-                    <p>
-                        R$ 35.500,00
-                    </p>
-                    <a href="#" class="lnk-destaque">
-                        Ver Detalhes
-                    </a>
-                </li>
-            </ul>
-        </section>
-
+    <main class="container fale-conosco">
+        <h1>Fale conosco</h1>
+        <p>
+            Para entrar em contato conosco, preencha o formulário abaixo:
+        </p>
+        <div class="flex">
+            <form action="">
+                <div class="campo">
+                    <input type="text" placeholder="* Seu nome:" required>
+                </div>
+                <div class="campo">
+                    <input type="email" placeholder="* Seu e-mail:" required>
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder="Seu telefone:">
+                </div>
+                <div class="campo">
+                    <input type="text" placeholder="* Assunto da mensagem:" required>
+                </div>
+                <div class="campo">
+                    <textarea placeholder="* Digite sua mensagem aqui..." required></textarea>
+                </div>
+                <div class="campo">
+                    <button class="btn lnk-destaque">
+                        Enviar
+                    </button>
+                </div>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.448598130898!2d-46.634653385383224!3d-23.588239368469686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1624224472643!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </main>
 
     <footer id="rodape">
@@ -157,5 +110,6 @@
     </footer>
 
     <script src="js/mobile.js"></script>
+
 </body>
 </html>
