@@ -59,3 +59,35 @@
 .grid-principal p:nth-of-type(2) {
     background-color: #652626;
 }
+
+@media (max-width: 750px) {
+    .grid-principal {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .grid-principal figure {
+        grid-area: 1/1/2/span 2;
+    }
+}
+
+@media (max-width: 390px) {
+    .grid-principal {
+        grid-template-columns: repeat(2, 49%);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .grid-principal figcaption {
+        padding: 15px;
+    }
+
+    .grid-principal p:first-of-type {
+        order: 4;
+        font-size: 12px;
+    }
+
+    .grid-principal p:last-of-type {
+        order: 5;
+        font-size: 12px;
+    }
+}

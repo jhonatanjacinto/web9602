@@ -84,3 +84,10 @@ h1 {
     color: black;
     border-bottom: 1px solid #360505;
 }
+
+@media (max-width: 1000px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

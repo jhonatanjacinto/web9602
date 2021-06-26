@@ -4,7 +4,8 @@
 }
 
 #topo > .container {
-    padding: 35px 0;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 
 #topo form {
@@ -76,4 +77,93 @@
 
 #menu li:last-of-type {
     border-right: none;
+}
+
+.btn-mobile {
+    display: none;
+}
+
+@media (max-width: 880px) {
+    #topo button.btn-mobile {
+        display: block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        padding: 0;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+
+    .btn-mobile i {
+        color: #fff;
+        font-size: 35px;
+    }
+
+    #menu .flex {
+        flex-direction: column;
+    }
+
+    #menu .menu-principal {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #menu .menu-principal li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+        border: none;
+    }
+
+    #menu .menu-principal a {
+        display: block;
+        padding: 12px 16px;
+        background-color: #1b0101;
+        border-radius: 5px;
+    }
+
+    #menu > .container {
+        margin-top: 15px;
+    }
+
+    #topo img {
+        margin: 0 calc((100% - 126px) / 2) 25px;
+    }
+
+    #topo form,
+    #topo .lnk-financiamento {
+        width: 48%;
+    }
+
+    #topo .lnk-financiamento {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    #topo form {
+        width: 60%;
+    }
+
+    #topo .lnk-financiamento {
+        width: 36%;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 510px) {
+    #topo .lnk-financiamento {
+        order: 2;
+        width: 50%;
+    }
+
+    #topo img {
+        margin: 0 auto 25px 0;
+        order: 1;
+    }
+
+    #topo form {
+        order: 3;
+        width: 100%;
+    }
 }

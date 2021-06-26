@@ -29,3 +29,27 @@
 .lista-veiculos li p {
     margin: 10px 0;
 }
+
+@media (max-width: 990px) {
+    .lista-veiculos li {
+        width: 24%;
+    }
+}
+
+@media (max-width: 950px) {
+    .lista-veiculos li {
+        width: 32%;
+    }
+}
+
+@media (max-width: 630px) {
+    .lista-veiculos li {
+        width: 48%;
+    }
+}
+
+@media (max-width: 470px) {
+    .lista-veiculos li {
+        width: 100%;
+    }
+}

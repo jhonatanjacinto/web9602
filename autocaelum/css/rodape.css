@@ -17,3 +17,15 @@
 #rodape .container:first-child {
     margin-bottom: 32px;
 }
+
+@media (max-width: 530px) {
+    #rodape .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #rodape p {
+        text-align: center;
+        margin-top: 15px;
+    }
+}
